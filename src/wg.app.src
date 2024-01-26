@@ -1,0 +1,8 @@
+{application, wg, [
+    {description, "Wireguard"},
+    {vsn, semver},
+    {applications, [
+        kernel,
+        stdlib
+    ]}
+]}.
